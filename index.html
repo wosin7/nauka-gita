@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Nazwa Firmy</a>
+            </div>
+            <div class="dropdown navbar-right">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menux" data-toggle="dropdown">Tutorials
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menux">
+                    <li role="presentation"><a role="menuitem" href="#">link</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">link</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">link</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation"><a role="menuitem" href="#">link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="gallery">
+            <div class="container">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                      </ol>
+                  
+                      <!-- slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active example-1">
+                        </div>
+                        <div class="item example-2">
+                        </div>
+                        <div class="item example-3">
+                        </div>
+                        <div class="item example-4">
+                        </div>
+                        <div class="item example-5">
+                            </div>
+                      </div>
+                  
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+            </div>                  
+    </section>
+    <section>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+            </ul>
+                  
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                      <h3>HOME</h3>
+                      <p>Quisque vel est ultricies, congue felis sit amet, dictum sem. Sed suscipit, erat id gravida malesuada, diam libero semper velit, faucibus mattis sem leo ac ex.</p>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <h3>Menu 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus lacus ut ligula viverra, in varius elit efficitur. Nunc dignissim tellus ipsum.</p>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <h3>Menu 2</h3>
+                    <p>raesent convallis mauris id turpis sodales sollicitudin egestas a nisi. Nullam faucibus dolor sit amet consectetur congue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modalek text-center">
+        <div class="container">
+            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">
+                     modal
+                  </button>
+                  
+                  <div id="exampleModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                       <div class="modal-content">
+                      <!-- tutaj umieszczamy zawartość-->
+                         <div class="modal-header">
+                           <h4>Header</h4>
+                         </div>
+                         <div class="modal-body">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+                         </div>
+                         <div class="modal-footer">
+                             <p>Footer</p>
+                           <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                         </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>    
+</body>
+</html>
